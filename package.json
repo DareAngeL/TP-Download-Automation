@@ -1,0 +1,21 @@
+{
+  "name": "tp-download-automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Rene Tajos Jr.",
+  "license": "ISC",
+  "dependencies": {
+    "cli-color": "^2.0.3",
+    "cli-select": "^1.1.2",
+    "fast-folder-size": "^1.7.1",
+    "prompt-sync": "^4.2.0",
+    "selenium-webdriver": "^4.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.28.0"
+  }
+}
