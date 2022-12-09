@@ -148,7 +148,7 @@ const automate = async(isFromContDL, url, folderScript) => {
  */
 const startDownloading = async(activeFolder) => {
   log(cl.blueBright('Downloading tests...Please wait....'))
-  const genCodeXpath = `\"/html/body/div[6]/div/div[12]\"`
+  const genCodeXpath = `\"//div[text()='Generated Code']\"`
   const pythonBtnLoc = By.xpath(`/html/body/div[1]/tp-movable/ng-transclude/div/div[2]/tp-mbw-dynamic-template/div/div/div[4]/div/div[3]`)
   const dlBtnLoc = By.xpath(`/html/body/div[1]/tp-movable/ng-transclude/div/div[3]/div[3]/div`)
   const okayBtnLoc = By.xpath(`/html/body/div[1]/tp-movable/ng-transclude/div/div[3]/div[3]/div`)
